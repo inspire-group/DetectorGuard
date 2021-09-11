@@ -85,5 +85,5 @@ If you find our work useful in your research, please consider citing:
 ## Todo 
 
 - Add BagNet training scripts
-- Add scripts for preparing the KITTI dataset
+- Add scripts for the KITTI dataset preparation
 
