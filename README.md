@@ -9,8 +9,9 @@ Code for "[DetectorGuard: Provably Securing Object Detectors against Localized P
 **Takeaways**: 
 
 1. We design *the first provably robust defense* for object detectors against patch hiding attacks.
-
 2. We achieve a comparable clean performance (in terms of Average Precision) to state-of-the-art object detector while obtaining substantial provable robustness.
+
+###### Check out this [paper list for adversarial patch research](https://github.com/xiangchong1/adv-patch-paper-list) for more fun!
 
 
 ## Requirements
