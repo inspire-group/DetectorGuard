@@ -11,7 +11,7 @@ Code for "[DetectorGuard: Provably Securing Object Detectors against Localized P
 1. We design *the first provably robust defense* for object detectors against patch hiding attacks.
 2. We achieve a comparable clean performance (in terms of Average Precision) to state-of-the-art object detector while obtaining substantial provable robustness.
 
-###### Check out this [paper list for adversarial patch research](https://github.com/xiangchong1/adv-patch-paper-list) for more fun!
+#### Check out this [paper list for adversarial patch research](https://github.com/xiangchong1/adv-patch-paper-list) for fun!
 
 
 ## Requirements
@@ -64,7 +64,7 @@ The code is tested with PyTorch 1.7.0. The complete list of required packages ar
 - Download checkpoints from Google Drive [link](https://drive.google.com/drive/folders/1aezBxFOuGa-EmLMdI5TCXeAFjk2n12Y-?usp=sharing) and move them to `checkpoints`.
 - Download Base Detector predictions from Google Drive [link](https://drive.google.com/drive/folders/1aezBxFOuGa-EmLMdI5TCXeAFjk2n12Y-?usp=sharing) and move them to `det` (or you can generate the prediction files by yourself; see `det/README.md` for more details).
   - Note: this repo does not implement Base Detector for simplicity
-- See `example_cmd.sh` for example commands for running the code.
+- See `example_cmd.sh` for instructions and example commands for running the code.
 
 If anything is unclear, please open an issue or contact Chong Xiang (cxiang@princeton.edu).
 
@@ -82,9 +82,4 @@ If you find our work useful in your research, please consider citing:
   year      = {2021}
 }
 ```
-
-## Todo 
-
-- Add BagNet training scripts
-- Add scripts for the KITTI dataset preparation
 
