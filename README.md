@@ -1,6 +1,6 @@
 # DetectorGuard: Provably Securing Object Detectors against Localized Patch Hiding Attacks
 
-By [Chong Xiang](http://xiangchong.xyz/), [Prattek Mittal](https://www.princeton.edu/~pmittal/)
+By [Chong Xiang](http://xiangchong.xyz/), [Prateek Mittal](https://www.princeton.edu/~pmittal/)
 
 Code for "[DetectorGuard: Provably Securing Object Detectors against Localized Patch Hiding Attacks](https://arxiv.org/abs/2102.02956)" in ACM CCS 2021
 
@@ -13,11 +13,12 @@ Code for "[DetectorGuard: Provably Securing Object Detectors against Localized P
 
 #### Check out this [paper list for adversarial patch research](https://github.com/xiangchong1/adv-patch-paper-list) for fun!
 
-
 ## Requirements
+
 The code is tested with PyTorch 1.7.0. The complete list of required packages are available in `requirement.txt`, and can be installed with `pip install -r requirement.txt`. The code should be compatible with other versions of packages.
 
 ## Files
+
 ```shell
 ├── README.md                        #this file 
 ├── requirement.txt                  #required packages
@@ -53,12 +54,15 @@ The code is tested with PyTorch 1.7.0. The complete list of required packages ar
     ├── README.md                    #details of checkpoints
     └── ...                          #BagNet model checkpoints
 ```
+
 ## Datasets
+
 - [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/)
 - [MS COCO](https://cocodataset.org/#home)
 - [KITTI](http://www.cvlibs.net/datasets/kitti/)
 
 ## Usage
+
 - See **Files** for details of each file. 
 - Download data in **Datasets** to `data/`.
 - Download checkpoints from Google Drive [link](https://drive.google.com/drive/folders/1aezBxFOuGa-EmLMdI5TCXeAFjk2n12Y-?usp=sharing) and move them to `checkpoints`.
@@ -82,4 +86,3 @@ If you find our work useful in your research, please consider citing:
   year      = {2021}
 }
 ```
-
